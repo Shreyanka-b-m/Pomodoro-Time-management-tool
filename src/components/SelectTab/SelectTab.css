@@ -1,0 +1,23 @@
+.select-tab {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    gap: 1rem;
+}
+
+.tab-button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 16px;
+    background-color: #f0f0f0;
+    transition: all 0.3s ease;
+}
+
+.tab-button.active {
+    color: white;
+    font-weight: bold;
+}
+
+.tab-button:hover {
+    opacity: 0.9;
+}
